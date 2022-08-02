@@ -17,16 +17,16 @@
 #########################################################################################################
 
 # Common inputs
-region: us-east
+region: eu-de
 
 # Account inputs
-resource_group_name: blueprint-vsi-us
+resource_group_name: blueprint-vsi-eu
 provision_rg: true
 
 # Observability inputs
-logdna_name: vsi-app-logdna-us
+logdna_name: vsi-app-logdna-eu
 
 # Application inputs
-vsi_name: bp-vsi-app-us
-cos_instance_name: vsi-app-cos-us
+vsi_name: bp-vsi-app-eu
+cos_instance_name: vsi-app-cos-eu
 ssh_public_key:
